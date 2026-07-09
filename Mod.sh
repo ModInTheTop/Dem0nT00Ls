@@ -8,10 +8,10 @@ echo -e '\033[31;40;1m
 ⠀⠀⠀⠀⠀⠀⣠⢊⠖⠀⠀⡖⢉⡠⠳⡝⢟⠛⠛⡂⢹⡇⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⢰⢋⢰⣏⠀⠈⠋⠉⠀⠀⡟⢂⠈⠆⢸⣼⡇⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠈⢟⣼⠈⢢⠁⢄⠀⠀⠀⢡⡎⣆⠠⠈⣿⡁⠀⠀⠀⣀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠰⣿⣧⡈⠮⠜⠀⠀⢀⣼⣿⣏⢒⣢⣿⡝⠶⠯⠝⢃⡜⠀⠀        MultiTools Para Hacking                            
-⠀⠀⡀⠀⠀⡀⠴⠝⡈⢻⣶⣄⣀⣴⡿⠊⢿⣽⣷⣭⣷⣬⡷⢖⡒⠋⠁⠀⠀      --------------------------
+⠀⠀⠀⠀⠀⠀⠰⣿⣧⡈⠮⠜⠀⠀⢀⣼⣿⣏⢒⣢⣿⡝⠶⠯⠝⢃⡜⠀⠀        𝐌𝐮𝐥𝐭𝐢𝐭𝐨𝐨𝐥𝐬 𝐏𝐚𝐫𝐚 𝐇𝐚𝐜𝐤𝐢𝐧𝐠                            
+⠀⠀⡀⠀⠀⡀⠴⠝⡈⢻⣶⣄⣀⣴⡿⠊⢿⣽⣷⣭⣷⣬⡷⢖⡒⠋⠁⠀⠀      -------------------------
 ⠀⠀⠉⠒⡒⠂⢀⠠⠂⢠⠿⣸⡷⢾⡇⠀⢸⢡⣉⣒⡊⠉⠲⣀⢪⣑⢤⡀⠀      
-⠚⠯⡵⣮⡄⡀⡁⠔⣺⠈⠏⠀⠁⠫⡂⠀⠀⠑⢄⠀⠀⢢⢠⠿⡌⣿⣧⡇⠀         𝐌𝐚𝐝𝐞 𝐁𝐲: 𝐁𝐚𝐚𝐜𝐡𝐢𝐫𝐢𝐢
+⠚⠯⡵⣮⡄⡀⡁⠔⣺⠈⠏⠀⠁⠫⡂⠀⠀⠑⢄⠀⠀⢢⢠⠿⡌⣿⣧⡇⠀        𝑴𝒂𝒅𝒆 𝑩𝒚: 𝑩𝒂𝒂𝒄𝒉𝒊𝒓𝒊𝒊
 ⠀⠀⠀⠉⠀⠀⢀⠴⡑⢇⠈⡄⠀⠀⠇⠀⠂⠀⠀⠑⢦⡟⠀⠊⣀⢯⡿⠁⠀
 ⠀⠀⠀⠐⠶⢬⣶⡯⠈⡸⠀⠘⠄⠀⣿⠀⠀⠢⣄⠀⠀⠑⣦⡁⠁⢏⠀⠀⠀ 
 ⠀⠀⠀⠘⢤⣄⠀⠄⠊⢠⡇⠀⠈⢄⠸⡖⣆⣤⣈⠳⣠⡺⠉⢹⡄⣿⠀⠀⠀
@@ -33,12 +33,12 @@ echo -e '\033[31;40;1m
 \e[37m[1]\e[36m Requisitos y actualización    \e[37m[2]\e[36m Phishing Tool				
 \e[37m[3]\e[36m WebCam Hack                   \e[37m[4]\e[36m Subscan			
 \e[37m[5]\e[36m Gmail Bomber		  \e[37m[6]\e[36m DDOS Attack			
-\e[37m[9]\e[36m Ip Info	                  \e[37m[10]\e[36m dorks-eye
-\e[37m[11]\e[36m HackerPro                    \e[37m[12]\e[36m RED_HAWK
-\e[37m[13]\e[36m VirusCrafter                 \e[37m[14]\e[36m Info-Site
-\e[37m[15]\e[36m BadMod	                  \e[37m[16]\e[36m Facebash
-\e[37m[17]\e[36m DARKARMY                     \e[37m[18]\e[36m AUTO-IP-CHANGER
-
+\e[37m[7]\e[36m Ip Info	                  \e[37m[8]\e[36m dorks-eye
+\e[37m[9]\e[36m HackerPro                    \e[37m[10]\e[36m RED_HAWK
+\e[37m[11]\e[36m VirusCrafter                 \e[37m[12]\e[36m Info-Site
+\e[37m[13]\e[36m BadMod	                  \e[37m[14]\e[36m Facebash
+\e[37m[15]\e[36m DARKARMY                     \e[37m[16]\e[36m AUTO-IP-CHANGER
+\e[37m[17]\e[36m Proximamente...                     \e[37m[18]\e[36m Proximamente...
 '
 
 
@@ -121,7 +121,7 @@ echo ""
 echo -e "\033[47;3;35m Antes de usarlo usa una VPN !!TU IP AHORA MISMO ES VISIBLE!!\033[0m"
 
 
-elif [[ $islem == 9 || $islem == 09 ]]; then
+elif [[ $islem == 7 || $islem == 09 ]]; then
 clear
 echo -e "\033[47;3;35m La instalación puede llevar algún tiempo...\033[0m"
 sleep 3
@@ -132,7 +132,7 @@ git clone https://github.com/htr-tech/track-ip.git
 cd track-ip
 bash trackip
 
-elif [[ $islem == 10 || $islem == 010 ]]; then
+elif [[ $islem == 8 || $islem == 08 ]]; then
 clear
 echo -e "\033[47;3;35m La instalación puede llevar algún tiempo...\033[0m"
 sleep 3
@@ -142,7 +142,7 @@ cd dorks-eye
 pip install -r requirements.txt
 python3 dorks-eye.py
 
-elif [[ $islem == 11 || $islem == 011 ]]; then
+elif [[ $islem == 9 || $islem == 09 ]]; then
 clear
 echo -e "\033[47;3;35m La instalación puede llevar algún tiempo...\033[0m"
 sleep 3
@@ -153,7 +153,7 @@ cd hackerpro
 sudo bash install.sh
 python2 hackerpro.py
 
-elif [[ $islem == 12 || $islem == 012 ]]; then
+elif [[ $islem == 10 || $islem == 010 ]]; then
 clear
 echo -e "\033[47;3;35m La instalación puede llevar algún tiempo...\033[0m"
 sleep 3
@@ -162,7 +162,7 @@ git clone https://github.com/Tuhinshubhra/RED_HAWK
 cd RED_HAWK
 php rhawk.php
 
-elif [[ $islem == 13 || $islem == 013 ]]; then
+elif [[ $islem == 11 || $islem == 11 ]]; then
 clear
 echo -e "\033[47;3;35m La instalación puede llevar algún tiempo...\033[0m"
 sleep 3
@@ -174,7 +174,7 @@ pkg install git -y
 cd TigerVirus
 bash app.sh
 
-elif [[ $islem == 14 || $islem == 014 ]]; then
+elif [[ $islem == 12 || $islem == 012 ]]; then
 clear
 echo -e "\033[47;3;35m La instalación puede llevar algún tiempo...\033[0m"
 sleep 3
@@ -186,7 +186,7 @@ git clone https://github.com/king-hacking/info-site.git
 cd info-site
 bash info.sh
 
-elif [[ $islem == 15 || $islem == 015 ]]; then
+elif [[ $islem == 13 || $islem == 013 ]]; then
 clear
 echo -e "\033[47;3;35m La instalación puede llevar algún tiempo\033[0m"
 sleep 3
@@ -200,7 +200,7 @@ chmod u+x INSTALL
 chmod u+x BadMod.php
 sudo php BadMod.php
 
-elif [[ $islem == 16 || $islem == 016 ]]; then
+elif [[ $islem == 14 || $islem == 014 ]]; then
 clear
 echo -e "\033[47;3;35mLa instalación puede llevar algún tiempo\033[0m"
 sleep 3
@@ -212,7 +212,7 @@ chmod +x facebash.sh
 tor
 sudo ./facebash.sh
 
-elif [[ $islem == 17 || $islem == 017 ]]; then
+elif [[ $islem == 15 || $islem == 015 ]]; then
 clear
 echo -e "\033[47;3;35m La instalación puede llevar algún tiempo\033[0m"
 sleep 3
@@ -226,7 +226,7 @@ cd DARKARMY
 chmod +x darkarmy.py
 python2 darkarmy.py
 
-elif [[ $islem == 18 || $islem == 018 ]]; then
+elif [[ $islem == 16 || $islem == 016 ]]; then
 clear
 echo -e "\033[47;3;35m La instalación puede llevar algún tiempo\033[0m"
 echo -e "\033[47;3;35m Esta herramienta te pedirá que uses Terminal (ROOT)\033[0m"
