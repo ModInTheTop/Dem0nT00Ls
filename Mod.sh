@@ -86,7 +86,7 @@ echo -e "\033[47;3;35m La instalación puede llevar algún tiempo...\033[0m"
 sleep 3
 git clone https://github.com/zidansec/subscan
 cd subscan
-read -p "Jepni nje domain p.sh (example.com): " sc
+bash subscan.sh
 ./subscan $sc
        
 elif [[ $islem == 5 || $islem == 05 ]]; then
