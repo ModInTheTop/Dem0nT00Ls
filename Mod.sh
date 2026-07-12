@@ -46,10 +46,9 @@ echo -e '\033[31;40;1m
 #Zgjedhja e Opsionit
 
 
-read -p islem
+read -p "Numri i transaksionit: " islem
 if [[ $islem == 1 || $islem == 01 ]]; then
 clear
-
 
 sleep 5
 pkg install git -y
