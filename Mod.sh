@@ -35,7 +35,7 @@ echo -e '\033[31;40;1m
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠳⢶⣤⣤⣤⣤⣤⡴⠞⠁⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 \033[33;4mVersion:\033[0m 1.0⠀                      \033[33;4mCTRL+C:\033[0m Exit
-													{white}Plugin Manager {PREFIX}P{SUFFIX}{red}
+													
 
 ╓───────────────────────────────────────────────────────────────────────────────╖
  Fuck Society - Bad Choices Make Good Stories - Ur Blessed - The World Is Yours              
