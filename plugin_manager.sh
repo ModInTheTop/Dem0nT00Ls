@@ -60,9 +60,21 @@ load_plugins() {
 
 add_plugin_menu() {
     clear
-    echo -e "${CYAN}╔════════════════════════════════════════╗${NC}"
-    echo -e "${CYAN}║      AGREGAR NUEVO PLUGIN             ║${NC}"
-    echo -e "${CYAN}╚════════════════════════════════════════╝${NC}\n"
+    echo -e "${RED}                                                
+    `MMMMMMMb.`MM                             68b                   
+     MM    `Mb MM                             Y89                   
+     MM     MM MM ___   ___   __       __     ___ ___  __     ____  
+     MM     MM MM `MM    MM  6MMbMMM  6MMbMMM `MM `MM 6MMb   6MMMMb\
+     MM    .M9 MM  MM    MM 6M'`Mb   6M'`Mb    MM  MMM9 `Mb MM'    `
+     MMMMMMM9' MM  MM    MM MM  MM   MM  MM    MM  MM'   MM YM.     
+     MM        MM  MM    MM YM.,M9   YM.,M9    MM  MM    MM  YMMMMb 
+     MM        MM  MM    MM  YMM9     YMM9     MM  MM    MM      `Mb
+     MM        MM  YM.   MM (M       (M        MM  MM    MM L    ,MM
+    _MM_      _MM_  YMMM9MM_ YMMMMb.  YMMMMb. _MM__MM_  _MM_MYMMMM9 
+                        6M    Yb 6M    Yb                       
+                        YM.   d9 YM.   d9                       
+                         YMMMM9   YMMMM9                        ${NC}"
+    
     
     read -p "Nombre del plugin: " plugin_name
     read -p "URL (git clone): " plugin_url
@@ -130,51 +142,27 @@ show_plugins() {
 }
 
 # ═══════════════════════════════════════════════════════════════════════════════
-# Actualizar todos los plugins
-# ═══════════════════════════════════════════════════════════════════════════════
-
-update_all() {
-    clear
-    echo -e "${CYAN}╔════════════════════════════════════════╗${NC}"
-    echo -e "${CYAN}║    ACTUALIZANDO TODOS LOS PLUGINS     ║${NC}"
-    echo -e "${CYAN}╚════════════════════════════════════════╝${NC}\n"
-    
-    if [ ! -s "$PLUGINS_LIST" ]; then
-        echo -e "${YELLOW}⚠ No hay plugins para actualizar${NC}"
-        sleep 2
-        return 0
-    fi
-    
-    while IFS='|' read -r nombre url; do
-        [ -z "$nombre" ] && continue
-        
-        plugin_path="$PLUGINS_DIR/$nombre"
-        if [ -d "$plugin_path" ]; then
-            echo -e "${BLUE}⬆ Actualizando: ${YELLOW}$nombre${NC}"
-            cd "$plugin_path"
-            git pull 2>/dev/null
-            if [ $? -eq 0 ]; then
-                echo -e "${GREEN}✓ Actualizado${NC}\n"
-            else
-                echo -e "${RED}✗ Error${NC}\n"
-            fi
-            cd - > /dev/null
-        fi
-    done < "$PLUGINS_LIST"
-    
-    echo -e "${GREEN}✓ Todos los plugins actualizados${NC}"
-    sleep 2
-}
-
-# ═══════════════════════════════════════════════════════════════════════════════
 # Eliminar plugin
 # ═══════════════════════════════════════════════════════════════════════════════
 
 remove_plugin() {
     clear
-    echo -e "${CYAN}╔════════════════════════════════════════╗${NC}"
-    echo -e "${CYAN}║      ELIMINAR PLUGIN                  ║${NC}"
-    echo -e "${CYAN}╚════════════════════════════════════════╝${NC}\n"
+    echo -e "${CYAN}
+        ________  ___                                                   
+    `MMMMMMMb.`MM                             68b                   
+     MM    `Mb MM                             Y89                   
+     MM     MM MM ___   ___   __       __     ___ ___  __     ____  
+     MM     MM MM `MM    MM  6MMbMMM  6MMbMMM `MM `MM 6MMb   6MMMMb\
+     MM    .M9 MM  MM    MM 6M'`Mb   6M'`Mb    MM  MMM9 `Mb MM'    `
+     MMMMMMM9' MM  MM    MM MM  MM   MM  MM    MM  MM'   MM YM.     
+     MM        MM  MM    MM YM.,M9   YM.,M9    MM  MM    MM  YMMMMb 
+     MM        MM  MM    MM  YMM9     YMM9     MM  MM    MM      `Mb
+     MM        MM  YM.   MM (M       (M        MM  MM    MM L    ,MM
+    _MM_      _MM_  YMMM9MM_ YMMMMb.  YMMMMb. _MM__MM_  _MM_MYMMMM9 
+                        6M    Yb 6M    Yb                       
+                        YM.   d9 YM.   d9                       
+                         YMMMM9   YMMMM9                        ${NC}"
+   
     
     if [ ! -s "$PLUGINS_LIST" ]; then
         echo -e "${YELLOW}⚠ No hay plugins para eliminar${NC}"
