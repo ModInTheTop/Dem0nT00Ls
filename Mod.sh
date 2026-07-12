@@ -36,7 +36,7 @@ echo -e '\033[31;40;1m
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 \033[33;4mVersion:\033[0m 1.0⠀                      \033[33;4mCTRL+C:\033[0m Exit
 
-\e[37m[1]\e[36m Kërkesat & Përditësimi        \e[37m[2]\e[36m Phishing Tool				
+\e[37m[1]\e[36m Actualizar la Shell           \e[37m[2]\e[36m Phishing Tool				
 \e[37m[3]\e[36m WebCam Hack                   \e[37m[4]\e[36m Subscan			
 \e[37m[5]\e[36m Gmail Bomber		  \e[37m[6]\e[36m DDOS Attack			
 \e[37m[7]\e[36m Si të përdorni ?	          \e[37m[8]\e[36m Çinstaloni programet e shkarkuara		
@@ -52,7 +52,8 @@ echo -e '\033[31;40;1m
 #Zgjedhja e Opsionit
 
 
-read -p "Numri i transaksionit: " islem
+read -p "Escoja La Funcion > " islem
+
 if [[ $islem == 1 || $islem == 01 ]]; then
 clear
 
@@ -114,10 +115,14 @@ python3 DRipper.py
 
 elif [[ $islem == 7 || $islem == 07 ]]; then
 clear
-python3 -m webbrowser https://www.youtube.com/watch?v=zgdq6ErscqY
-sleep 10
-bash alhack.sh
-
+sleep 3
+cd Tools
+sudo apt update -y
+sudo apt install php nodejs npm adb scrcpy wget unzip apktool jq -y
+git clone https://github.com/tegal1337/CiLocks
+cd CiLocks
+chmod +x cilocks
+sudo bash cilocks
  
 elif [[ $islem == 8 || $islem == 08 ]]; then
 clear
