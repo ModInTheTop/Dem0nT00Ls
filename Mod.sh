@@ -251,7 +251,7 @@ sudo apt-get install tor
 pip3 install requests
 git clone https://github.com/FDX100/Auto_Tor_IP_changer.git
 cd Auto_Tor_IP_changer
-echo -e "\033[47;3;35m shkoni te shfletuesi juaj / ndryshoni përfaqësuesin (sock proxy) në 127.0.0.1:9050\033[0m"
+echo -e "\033[47;3;35m shkoni te shfletuesi juaj / ndryshoni përfaqësuesin sock proxy në 127.0.0.1:9050\033[0m"
 sleep 8
 python3 install.py
 aut
