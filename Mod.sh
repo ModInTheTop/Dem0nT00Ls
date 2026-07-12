@@ -50,7 +50,7 @@ read -p "Numri i transaksionit: " islem
 if [[ $islem == 1 || $islem == 01 ]]; then
 clear
 
-echo -e "\033[47;31;5m Po instalon përditësimin dhe kërkesat...\033[0m"
+
 sleep 5
 pkg install git -y
 pkg install python python3 -y
