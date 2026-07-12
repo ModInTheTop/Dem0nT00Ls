@@ -51,7 +51,35 @@ echo -e '\033[31;40;1m
  ├─ \e[37m[17]\e[36m DARKARMY                   ├─ \e[37m[18]\e[36m AUTO-IP-CHANGER
 
 '
+# Intento de Sistema de Pluggins Manual
+Made-By-Mod/
+├── Mod.sh                 (script principal)
+├── plugins/
+│   ├── plugins.conf       (configuración de plugins)
+│   └── plugin_manager.sh  (gestor de plugins)
+└── Tools/                 (donde se descargan los plugins)
 
+1|Actualizar la Shell|https://github.com/tu-repo/alhack|bash alhack.sh|bash alhack.sh
+2|Phishing Tool|https://github.com/htr-tech/zphisher|bash zphisher.sh|bash zphisher.sh
+3|WebCam Hack|https://github.com/techchipnet/CamPhish|bash camphish.sh|bash camphish.sh
+4|Subscan|https://github.com/zidansec/subscan|./subscan $sc|./subscan $sc
+5|Gmail Bomber|https://github.com/juzeon/fast-mail-bomber.git|php index.php start-bombing|php index.php start-bombing $mail
+6|DDOS Attack|https://github.com/palahsu/DDoS-Ripper.git|python3 DRipper.py|python3 DRipper.py
+7|CiLocks|https://github.com/tegal1337/CiLocks|sudo bash cilocks|sudo bash cilocks
+8|Ip Info|https://github.com/htr-tech/track-ip.git|bash trackip|bash trackip
+9|Dorks-eye|https://github.com/BullsEye0/dorks-eye.git|python3 dorks-eye.py|python3 dorks-eye.py
+10|HackerPro|https://github.com/jaykali/hackerpro.git|python2 hackerpro.py|python2 hackerpro.py
+11|RED_HAWK|https://github.com/Tuhinshubhra/RED_HAWK|php rhawk.php|php rhawk.php
+12|VirusCrafter|https://github.com/Devil-Tigers/TigerVirus|bash app.sh|bash app.sh
+13|Info-Site|https://github.com/king-hacking/info-site.git|bash info.sh|bash info.sh
+14|BadMod|https://github.com/MrSqar-Ye/BadMod.git|sudo php BadMod.php|sudo php BadMod.php
+15|Facebash|https://github.com/fu8uk1/facebash|./facebash.sh|./facebash.sh
+16|DARKARMY|https://github.com/D4RK-4RMY/DARKARMY|python2 darkarmy.py|python2 darkarmy.py
+17|AUTO-IP-CHANGER|https://github.com/FDX100/Auto_Tor_IP_changer.git|python3 install.py|python3 install.py
+18|Mi Plugin|https://github.com/usuario/repo|comando_instalacion|comando_ejecucion
+
+chmod +x plugins/plugin_manager.sh
+bash plugins/plugin_manager.sh
 #Selección de opciones
 
 
