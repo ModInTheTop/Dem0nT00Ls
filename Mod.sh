@@ -39,7 +39,7 @@ echo -e '\033[31;40;1m
 EOF
     echo -e "\033[33;4mVersion:\033[0m 1.0⠀                      \033[33;4mCTRL+C:\033[0m Exit\n"
 
-echo ''
+echo
 
 # Hacer ejecutable el gestor de plugins y ejecutarlo
 chmod +x plugin_manager.sh
