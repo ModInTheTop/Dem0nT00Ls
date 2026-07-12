@@ -46,7 +46,7 @@ echo -e "\033[0;35m
 #Zgjedhja e Opsionit
 
 
-read -p "Numri i transaksionit: " islem
+read -p "Escoja Su Herramienta >" islem
 if [[ $islem == 1 || $islem == 01 ]]; then
 clear
 
