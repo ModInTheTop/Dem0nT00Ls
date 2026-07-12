@@ -115,7 +115,6 @@ elif [[ $islem == 7 || $islem == 07 ]]; then
 clear
 python3 -m webbrowser https://www.youtube.com/watch?v=zgdq6ErscqY
 sleep 10
-echo "Prisni 10 sekonda"
 bash alhack.sh
 
  
