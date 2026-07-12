@@ -109,7 +109,6 @@ cd Tools
 git clone https://github.com/palahsu/DDoS-Ripper.git
 cd DDoS-Ripper
 python3 DRipper.py
-echo ""
 
 elif [[ $islem == 7 || $islem == 07 ]]; then
 clear
