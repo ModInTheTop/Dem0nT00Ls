@@ -97,9 +97,6 @@ rm -rf data/nodes.json data/dead_providers.json
 sleep 4
 php index.php update-nodes
 php index.php refine-nodes
-echo "-------------------------"
-read -p "Jepni nje adres emaili per te bombarduar: " mail
-echo "-------------------------"
 php index.php start-bombing $mail
 
 elif [[ $islem == 6 || $islem == 06 ]]; then
