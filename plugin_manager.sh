@@ -212,9 +212,22 @@ remove_plugin() {
 main_menu() {
     while true; do
         clear
-        echo -e "${CYAN}╔════════════════════════════════════════╗${NC}"
-        echo -e "${CYAN}║      GESTOR DE PLUGINS - MOD.SH      ║${NC}"
-        echo -e "${CYAN}╚════════════════════════════════════════╝${NC}\n"
+        echo -e "${CYAN}
+        ________  ___                                                   
+    `MMMMMMMb.`MM                             68b                   
+     MM    `Mb MM                             Y89                   
+     MM     MM MM ___   ___   __       __     ___ ___  __     ____  
+     MM     MM MM `MM    MM  6MMbMMM  6MMbMMM `MM `MM 6MMb   6MMMMb\
+     MM    .M9 MM  MM    MM 6M'`Mb   6M'`Mb    MM  MMM9 `Mb MM'    `
+     MMMMMMM9' MM  MM    MM MM  MM   MM  MM    MM  MM'   MM YM.     
+     MM        MM  MM    MM YM.,M9   YM.,M9    MM  MM    MM  YMMMMb 
+     MM        MM  MM    MM  YMM9     YMM9     MM  MM    MM      `Mb
+     MM        MM  YM.   MM (M       (M        MM  MM    MM L    ,MM
+    _MM_      _MM_  YMMM9MM_ YMMMMb.  YMMMMb. _MM__MM_  _MM_MYMMMM9 
+                        6M    Yb 6M    Yb                       
+                        YM.   d9 YM.   d9                       
+                         YMMMM9   YMMMM9                        ${NC}"
+       
         
         echo -e "${GREEN}[1]${NC} Agregar plugin (git clone + URL)"
         echo -e "${GREEN}[2]${NC} Ver plugins instalados"
