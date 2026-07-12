@@ -1,5 +1,3 @@
-#!/bin/bash
-
 clear
 mkdir -p Tools
 clear
