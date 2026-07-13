@@ -60,19 +60,4 @@ Dem0nT00ls Hackkit es una colección de utilidades para profesionales y estudian
 
 
 
-# CyberSec Toolkit
-
-
-
-## Características
-
-* 🔍 Reconocimiento y recopilación de información (OSINT).
-* 🌐 Análisis y escaneo de sitios web.
-* 📡 Utilidades para auditorías de redes inalámbricas en laboratorios autorizados.
-* 🛠️ Automatización de tareas comunes de pentesting.
-* 📊 Herramientas de análisis e información de objetivos.
-* 🎓 Diseñado para fines educativos, investigación y pruebas de seguridad autorizadas.
-
-> **Aviso:** Este proyecto está destinado exclusivamente a actividades legales, educativas y auditorías realizadas con autorización expresa del propietario de los sistemas. El uso indebido de estas herramientas es responsabilidad exclusiva del usuario.
-
 
